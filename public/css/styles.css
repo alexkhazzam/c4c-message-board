@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#welcome-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+#welcome-text {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#cursor {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+#message-input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 25px;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#message-input {
+    margin-right: 20px;
+}
+
+#send-message-btn {
+    border-radius: 0px !important;
+}
+
+#message-board {
+    width: 60%;
+    margin: auto;
+}
+
+#messages {
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+#empty-messages-text {
+    text-align: center;
+    color: gray;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.message-wrapper {
+    border: 1px solid rgba(196, 196, 196, 0.49);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.message {
+    font-size: 1rem;
+    margin: 0px;
+}
+
+.user-email {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.date {
+    color: #17a2b8;
+    font-size: 0.8rem;
+}

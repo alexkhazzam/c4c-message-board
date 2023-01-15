@@ -1,0 +1,30 @@
+{
+  "name": "c4c-message-board",
+  "version": "1.0.0",
+  "description": "c4c coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexkhazzam/c4c-message-board.git"
+  },
+  "author": "Alexander Khazzam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexkhazzam/c4c-message-board/issues"
+  },
+  "homepage": "https://github.com/alexkhazzam/c4c-message-board#readme",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
