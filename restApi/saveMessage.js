@@ -11,8 +11,10 @@ module.exports.postSaveMessage = (req, res) => {
   req.on('end', () => {
     const { message, date } = JSON.parse(data.toString());
 
-    writeMessage(message, date, () => {
-      res.json({ filteredMessage: new Filter().clean(message), date });
+    const filteredMessage = new Filter().clean(message);
+
+    writeMessage(filteredMessage, date, () => {
+      res.json({ filteredMessage, date });
     });
   });
 };
