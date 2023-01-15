@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 const path = require('path');
 const socket = require('socket.io');
 
-const { postSaveMessage } = require('./api/saveMessage');
+const { postSaveMessage } = require('./restApi/saveMessage');
 const { readMessages } = require('./helpers/messageWorker');
 
 dotenv.config({ path: './config.env' });
